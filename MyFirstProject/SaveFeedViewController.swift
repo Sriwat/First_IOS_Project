@@ -24,6 +24,14 @@ class SaveFeedViewController: UIViewController {
         
         
     }
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        self.setupData()
+    }
+    
+    
+    
+    
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
@@ -47,7 +55,7 @@ class SaveFeedViewController: UIViewController {
     
     
     func toFeedViewDetailViewController(news:News){
-        if let viewController = self.storyboard?.instantiateViewController(withIdentifier: "FeedViewDetailViewController") as? FeedViewDetailViewController{viewController.news = news
+        if let viewController = self.storyboard?.instantiateViewController(withIdentifier: "SaveFeedDetailViewController") as? SaveFeedDetailViewController{viewController.news = news
             
             
             self.navigationController?.pushViewController(viewController, animated: true)
