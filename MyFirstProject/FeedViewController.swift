@@ -34,15 +34,15 @@ self.setupData()
     }
     
     func setupData(){
-        var news:News = News(title: "IOS", description: "Error let stop it now", iconImage: #imageLiteral(resourceName: "cheese_flat"), author: "Prayut", view: 2, createDate: "29/07/60", techs: "IT")
+        var news:News = News(id: 1,title: "IOS", description: "Error let stop it now", iconImage: #imageLiteral(resourceName: "cheese_flat"), author: "Prayut", view: 2, createDate: "29/07/60", category: "IT")
         
-        var news2:News = News(title: "Android", description: "It is harder than IOS", iconImage: #imageLiteral(resourceName: "cat"), author: "Annop", view: 2999, createDate: "30/07/60", techs: "IT")
+        var news2:News = News(id: 2,title: "Android", description: "It is harder than IOS", iconImage: #imageLiteral(resourceName: "cat"), author: "Annop", view: 2999, createDate: "30/07/60", category: "IT")
         
-        var news3:News = News(title: "Thailand", description: "Smileland and beauty", iconImage: #imageLiteral(resourceName: "rocket_icon2"), author: "Somchai", view: 585, createDate: "20/07/60", techs: "PUBLIC")
+        var news3:News = News(id: 3,title: "Thailand", description: "Smileland and beauty", iconImage: #imageLiteral(resourceName: "rocket_icon2"), author: "Somchai", view: 585, createDate: "20/07/60", category: "PUBLIC")
         
-        var news4:News = News(title: "Football", description: "World cup today", iconImage: #imageLiteral(resourceName: "dog"), author: "ทรงพล", view: 88, createDate: "15/07/60", techs: "SPORT")
+        var news4:News = News(id: 4, title: "Football", description: "World cup today", iconImage: #imageLiteral(resourceName: "dog"), author: "ทรงพล", view: 88, createDate: "15/07/60", category: "SPORT")
         
-        var news5:News = News(title: "Medication", description: "Healthy and happy", iconImage: #imageLiteral(resourceName: "github_512"), author: "อรรณพ", view: 9999, createDate: "08/07/60", techs: "FUTURE")
+        var news5:News = News(id: 5, title: "Medication", description: "Healthy and happy", iconImage: #imageLiteral(resourceName: "github_512"), author: "อรรณพ", view: 9999, createDate: "08/07/60", category: "FUTURE")
         
         
 

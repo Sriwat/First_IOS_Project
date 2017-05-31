@@ -23,9 +23,15 @@ class SaveFeedViewController: UIViewController {
         
         
         
-        
-        
     }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        self.setupData()
+
+    }
+    
+    
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -33,24 +39,9 @@ class SaveFeedViewController: UIViewController {
     }
     
     func setupData(){
-        var news:News = News(title: "IOS", description: "Error let stop it now", iconImage: #imageLiteral(resourceName: "cheese_flat"), author: "Prayut", view: 2, createDate: "29/07/60", techs: "IT")
+        self.newsArray = persist.load()
+        self.tableView.reloadData()
         
-        var news2:News = News(title: "Android", description: "It is harder than IOS", iconImage: #imageLiteral(resourceName: "cat"), author: "Annop", view: 2999, createDate: "30/07/60", techs: "IT")
-        
-        var news3:News = News(title: "Thailand", description: "Smileland and beauty", iconImage: #imageLiteral(resourceName: "rocket_icon2"), author: "Somchai", view: 585, createDate: "20/07/60", techs: "PUBLIC")
-        
-        var news4:News = News(title: "Football", description: "World cup today", iconImage: #imageLiteral(resourceName: "dog"), author: "ทรงพล", view: 88, createDate: "15/07/60", techs: "SPORT")
-        
-        var news5:News = News(title: "Medication", description: "Healthy and happy", iconImage: #imageLiteral(resourceName: "github_512"), author: "อรรณพ", view: 9999, createDate: "08/07/60", techs: "FUTURE")
-        
-        
-        
-        
-        
-        newsArray.append(news)
-        newsArray.append(news2)
-        newsArray.append(news3)
-
         
     }
     

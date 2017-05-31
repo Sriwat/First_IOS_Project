@@ -47,6 +47,14 @@ class FeedViewDetailViewController: UIViewController {
 
     @IBAction func saveData(_ sender: Any) {
         print("Click save button")
+        if let news = self.news{
+            persist.save(news: news)
+        }
+        
+        
+        
+        
+        
     }
     
     

@@ -32,7 +32,7 @@ class FeedTableViewCell: UITableViewCell {
         self.titleLabel.text = news.title
         self.descriptionLabel.text = news.description
         self.accessoryLabel.text = "\(news.author) * \(news.view) views *\(news.createDate)"
-        self.techsLabel.text = news.techs
+        self.techsLabel.text = news.category
     }
     
     

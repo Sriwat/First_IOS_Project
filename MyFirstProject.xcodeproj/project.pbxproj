@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6CB017C11EDE5E2B0091F433 /* Persist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB017C01EDE5E2B0091F433 /* Persist.swift */; };
 		6CD60D8A1EDD2FEC0006D6BA /* FeedViewDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CD60D891EDD2FEC0006D6BA /* FeedViewDetailViewController.swift */; };
 		6CD60D8C1EDD64740006D6BA /* SaveFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CD60D8B1EDD64730006D6BA /* SaveFeedViewController.swift */; };
 		6CE556181EDBC242009674D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE556171EDBC242009674D2 /* AppDelegate.swift */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6CB017C01EDE5E2B0091F433 /* Persist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Persist.swift; sourceTree = "<group>"; };
 		6CD60D891EDD2FEC0006D6BA /* FeedViewDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewDetailViewController.swift; sourceTree = "<group>"; };
 		6CD60D8B1EDD64730006D6BA /* SaveFeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SaveFeedViewController.swift; sourceTree = "<group>"; };
 		6CE556141EDBC242009674D2 /* MyFirstProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFirstProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -83,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				6CE556381EDBF4F8009674D2 /* News.swift */,
+				6CB017C01EDE5E2B0091F433 /* Persist.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -187,6 +190,7 @@
 				6CE5561A1EDBC242009674D2 /* ViewController.swift in Sources */,
 				6CE556311EDBC564009674D2 /* FeedTableViewCell.swift in Sources */,
 				6CD60D8A1EDD2FEC0006D6BA /* FeedViewDetailViewController.swift in Sources */,
+				6CB017C11EDE5E2B0091F433 /* Persist.swift in Sources */,
 				6CE556371EDBD912009674D2 /* FeedViewController.swift in Sources */,
 				6CE556181EDBC242009674D2 /* AppDelegate.swift in Sources */,
 				6CE556201EDBC242009674D2 /* MyFirstProject.xcdatamodeld in Sources */,
