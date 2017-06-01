@@ -145,7 +145,7 @@
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oVr-6v-wgY">
-                                        <rect key="frame" x="8" y="328" width="206" height="21"/>
+                                        <rect key="frame" x="8" y="328" width="251" height="21"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -166,14 +166,35 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FAd-qB-L1t">
-                                        <rect key="frame" x="224" y="322" width="80" height="34"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FAd-qB-L1t" customClass="FaveButton" customModule="FaveButton">
+                                        <rect key="frame" x="269" y="321.5" width="35" height="35"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="80" id="cY5-7I-RGN"/>
+                                            <constraint firstAttribute="height" constant="35" id="GIu-Ft-U4h"/>
+                                            <constraint firstAttribute="width" constant="35" id="cY5-7I-RGN"/>
                                         </constraints>
-                                        <state key="normal" title="Save">
+                                        <state key="normal" title="Save" image="heart">
                                             <color key="titleColor" red="0.28476631033670108" green="0.50393868443420442" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="normalColor">
+                                                <color key="value" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="selectedColor">
+                                                <color key="value" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="dotFirstColor">
+                                                <color key="value" red="0.150421416" green="0.98570018270000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="dotSecondColor">
+                                                <color key="value" red="1" green="0.9186349694" blue="0.48485293730000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="circleFromColor">
+                                                <color key="value" red="1" green="0.2217898009" blue="0.95892485110000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="circleToColor">
+                                                <color key="value" red="0.83608648829999999" green="1" blue="0.38219320270000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
                                         <connections>
                                             <action selector="saveData:" destination="Gm8-Ky-zgA" eventType="touchUpInside" id="RZk-zY-0Gj"/>
                                         </connections>
@@ -372,7 +393,7 @@
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4tE-Je-TaQ">
-                                        <rect key="frame" x="8" y="328" width="206" height="21"/>
+                                        <rect key="frame" x="8" y="328" width="251" height="21"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -393,14 +414,35 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T5P-MR-0CX">
-                                        <rect key="frame" x="224" y="322" width="80" height="34"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T5P-MR-0CX" customClass="FaveButton" customModule="FaveButton">
+                                        <rect key="frame" x="269" y="321" width="35" height="35"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="80" id="MtO-ti-Raf"/>
+                                            <constraint firstAttribute="width" constant="35" id="MtO-ti-Raf"/>
+                                            <constraint firstAttribute="height" constant="35" id="dAI-A2-8X1"/>
                                         </constraints>
-                                        <state key="normal" title="Delete">
+                                        <state key="normal" title="Delete" image="heart">
                                             <color key="titleColor" red="0.28476631029999999" green="0.5039386844" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="normalColor">
+                                                <color key="value" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="selectedColor">
+                                                <color key="value" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="dotFirstColor">
+                                                <color key="value" red="1" green="0.16124633590000001" blue="0.2123334271" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="dotSecondColor">
+                                                <color key="value" red="0.84607876729999998" green="0.34302912489999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="circleFromColor">
+                                                <color key="value" red="1" green="0.9186349694" blue="0.48485293730000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="circleToColor">
+                                                <color key="value" red="0.83608648829999999" green="1" blue="0.38219320270000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
                                         <connections>
                                             <action selector="deleteData:" destination="VLw-z1-giS" eventType="touchUpInside" id="qhp-1q-kHT"/>
                                         </connections>
@@ -445,10 +487,11 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Jc-tA-oC8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-339" y="-3252"/>
+            <point key="canvasLocation" x="-339.375" y="-3252.4647887323945"/>
         </scene>
     </scenes>
     <resources>
+        <image name="heart" width="128" height="128"/>
         <image name="rocket_icon2" width="266" height="200"/>
     </resources>
 </document>

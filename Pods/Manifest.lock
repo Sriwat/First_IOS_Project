@@ -1,0 +1,26 @@
+PODS:
+  - Alamofire (4.4.0)
+  - AlamofireObjectMapper (4.1.0):
+    - Alamofire (~> 4.1)
+    - ObjectMapper (~> 2.0)
+  - FaveButton (2.0.3)
+  - MarqueeLabel/Swift (3.0.5)
+  - ObjectMapper (2.2.7)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.4)
+  - AlamofireObjectMapper (~> 4.0)
+  - FaveButton (~> 2.0.3)
+  - MarqueeLabel/Swift
+  - ObjectMapper (~> 2.2.2)
+
+SPEC CHECKSUMS:
+  Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
+  AlamofireObjectMapper: 435adc82f5b367679bd9e71c4974a54efd0b2521
+  FaveButton: cfcbc5e73da159c4f916613da5687357b5bb4783
+  MarqueeLabel: 8a25b2cf02cf52165022f01369e63536c58fcc00
+  ObjectMapper: 65abcfd9a61cf7396cbd14a4fb22fddfcc46577e
+
+PODFILE CHECKSUM: 0c8a7e26c2874a6a249202a657c4293864a2454d
+
+COCOAPODS: 1.2.1

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6CA8D8A51EDFC79100EE21AE /* NewsDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA8D8A41EDFC79100EE21AE /* NewsDetail.swift */; };
+		6CA8D8AB1EDFD2FB00EE21AE /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA8D8AA1EDFD2FB00EE21AE /* UIColorExtensions.swift */; };
+		6CA8D8AF1EDFD6E600EE21AE /* Backend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA8D8AE1EDFD6E600EE21AE /* Backend.swift */; };
 		6CB017C11EDE5E2B0091F433 /* Persist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB017C01EDE5E2B0091F433 /* Persist.swift */; };
 		6CB017C31EDE83230091F433 /* SaveFeedDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB017C21EDE83230091F433 /* SaveFeedDetailViewController.swift */; };
 		6CB017C51EDEA15E0091F433 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 6CB017C41EDEA15E0091F433 /* Podfile */; };
@@ -22,12 +25,16 @@
 		6CE556321EDBC564009674D2 /* FeedTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CE556301EDBC564009674D2 /* FeedTableViewCell.xib */; };
 		6CE556371EDBD912009674D2 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE556361EDBD912009674D2 /* FeedViewController.swift */; };
 		6CE556391EDBF4F8009674D2 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE556381EDBF4F8009674D2 /* News.swift */; };
+		896F3065A91D0E715A3F7B93 /* Pods_MyFirstProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7467292115046E369D17B42 /* Pods_MyFirstProject.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6CA8D8A41EDFC79100EE21AE /* NewsDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsDetail.swift; sourceTree = "<group>"; };
+		6CA8D8AA1EDFD2FB00EE21AE /* UIColorExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
+		6CA8D8AE1EDFD6E600EE21AE /* Backend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Backend.swift; sourceTree = "<group>"; };
 		6CB017C01EDE5E2B0091F433 /* Persist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Persist.swift; sourceTree = "<group>"; };
 		6CB017C21EDE83230091F433 /* SaveFeedDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SaveFeedDetailViewController.swift; sourceTree = "<group>"; };
-		6CB017C41EDEA15E0091F433 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		6CB017C41EDEA15E0091F433 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6CD60D891EDD2FEC0006D6BA /* FeedViewDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewDetailViewController.swift; sourceTree = "<group>"; };
 		6CD60D8B1EDD64730006D6BA /* SaveFeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SaveFeedViewController.swift; sourceTree = "<group>"; };
 		6CE556141EDBC242009674D2 /* MyFirstProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFirstProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -42,6 +49,9 @@
 		6CE556301EDBC564009674D2 /* FeedTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FeedTableViewCell.xib; sourceTree = "<group>"; };
 		6CE556361EDBD912009674D2 /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		6CE556381EDBF4F8009674D2 /* News.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		728052D655C3B813CEBBB4D4 /* Pods-MyFirstProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyFirstProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyFirstProject/Pods-MyFirstProject.debug.xcconfig"; sourceTree = "<group>"; };
+		E2B34D9067B9423BC7519F05 /* Pods-MyFirstProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyFirstProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyFirstProject/Pods-MyFirstProject.release.xcconfig"; sourceTree = "<group>"; };
+		E7467292115046E369D17B42 /* Pods_MyFirstProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyFirstProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,18 +59,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				896F3065A91D0E715A3F7B93 /* Pods_MyFirstProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		532A6490B7E25C310596A35C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E7467292115046E369D17B42 /* Pods_MyFirstProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6CE5560B1EDBC242009674D2 = {
 			isa = PBXGroup;
 			children = (
 				6CB017C41EDEA15E0091F433 /* Podfile */,
 				6CE556161EDBC242009674D2 /* MyFirstProject */,
 				6CE556151EDBC242009674D2 /* Products */,
+				8B33307A9DCD7D737F1BF7DE /* Pods */,
+				532A6490B7E25C310596A35C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -89,8 +110,11 @@
 		6CE5562C1EDBC2BA009674D2 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				6CA8D8AE1EDFD6E600EE21AE /* Backend.swift */,
+				6CA8D8AA1EDFD2FB00EE21AE /* UIColorExtensions.swift */,
 				6CE556381EDBF4F8009674D2 /* News.swift */,
 				6CB017C01EDE5E2B0091F433 /* Persist.swift */,
+				6CA8D8A41EDFC79100EE21AE /* NewsDetail.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -118,6 +142,15 @@
 			name = Controller;
 			sourceTree = "<group>";
 		};
+		8B33307A9DCD7D737F1BF7DE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				728052D655C3B813CEBBB4D4 /* Pods-MyFirstProject.debug.xcconfig */,
+				E2B34D9067B9423BC7519F05 /* Pods-MyFirstProject.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -125,9 +158,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6CE556291EDBC242009674D2 /* Build configuration list for PBXNativeTarget "MyFirstProject" */;
 			buildPhases = (
+				E15EBB47AA4CAB484435B4BA /* [CP] Check Pods Manifest.lock */,
 				6CE556101EDBC242009674D2 /* Sources */,
 				6CE556111EDBC242009674D2 /* Frameworks */,
 				6CE556121EDBC242009674D2 /* Resources */,
+				3DB791AD5FF704CB1207F085 /* [CP] Embed Pods Frameworks */,
+				8AD4F0860BAAF61BFB7FC021 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -187,6 +223,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3DB791AD5FF704CB1207F085 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyFirstProject/Pods-MyFirstProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8AD4F0860BAAF61BFB7FC021 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyFirstProject/Pods-MyFirstProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E15EBB47AA4CAB484435B4BA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6CE556101EDBC242009674D2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -195,7 +279,10 @@
 				6CE556391EDBF4F8009674D2 /* News.swift in Sources */,
 				6CD60D8C1EDD64740006D6BA /* SaveFeedViewController.swift in Sources */,
 				6CE5561A1EDBC242009674D2 /* ViewController.swift in Sources */,
+				6CA8D8AB1EDFD2FB00EE21AE /* UIColorExtensions.swift in Sources */,
+				6CA8D8A51EDFC79100EE21AE /* NewsDetail.swift in Sources */,
 				6CE556311EDBC564009674D2 /* FeedTableViewCell.swift in Sources */,
+				6CA8D8AF1EDFD6E600EE21AE /* Backend.swift in Sources */,
 				6CD60D8A1EDD2FEC0006D6BA /* FeedViewDetailViewController.swift in Sources */,
 				6CB017C11EDE5E2B0091F433 /* Persist.swift in Sources */,
 				6CE556371EDBD912009674D2 /* FeedViewController.swift in Sources */,
@@ -320,6 +407,7 @@
 		};
 		6CE5562A1EDBC242009674D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 728052D655C3B813CEBBB4D4 /* Pods-MyFirstProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MyFirstProject/Info.plist;
@@ -332,6 +420,7 @@
 		};
 		6CE5562B1EDBC242009674D2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2B34D9067B9423BC7519F05 /* Pods-MyFirstProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MyFirstProject/Info.plist;
